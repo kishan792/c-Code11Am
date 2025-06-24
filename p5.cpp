@@ -14,14 +14,20 @@ using namespace std;
 class Employee
 {
     public:
-    
-    string name;
-    int sal;
+
+        string name;
+        int sal;
 };
 
 int main()
 {
-    Employee e1;
+    //object creation
+    //className objecName
+     Employee e1;
+     //access the datamember
+     //objectName.datamemberName;
+
+     
     e1.name = "Kishan";
     e1.sal = 100;
 
